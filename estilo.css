@@ -1,0 +1,56 @@
+/*
+body{
+    color: red;
+    border: 1px solid blue;
+    /*border e background nao sao herdados para outros elementos quando aplicado no body
+}
+
+h2{
+    color: blue;
+}
+
+h2.verde{
+    color: green;
+}
+h2#amarelo{
+    color: yellow;
+}
+
+na ordem de especificidade, a ordem é: ID, CLASS e seletor normal de um elemento
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BARRA DE NAVEGAÇÃO VERTICAL*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;/*tipo um padding*/
+    line-height: 40px;/*altura da linha da letra. O padding ia descer a letra e a img juntos*/
+    background: url(imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover{
+    color: #fff;
+    background-position:right bottom ;/*não precisa colocar a url dnv, so a posição que a img vai mover*/
+}
